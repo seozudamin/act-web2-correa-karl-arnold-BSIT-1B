@@ -23,10 +23,27 @@
 #blog {
   display: flex;
   flex-wrap: wrap;
-
 }
-#services{
+#blog div :first-child{
   padding: 1%;
+  background-color: rgb(226, 226, 226);
+  height: 20%;
+  display: left;
+  padding-inline-start: 30%;
+  padding-inline-end: 30%;
+  margin-left: 15%;
+}
+#blog div p :first-of-type{
+  padding: 1%;
+  background-color: rgb(226, 226, 226);
+  display: center;
+  padding-inline-start: 30%;
+  padding-inline-end: 30%;
+  margin-left: 15%;
+}
+
+#services{
+  padding: 5%;
   margin-top: 5%;
   margin-bottom: 5%;
   background-color: rgb(226, 226, 226);
@@ -34,6 +51,32 @@
 #services h2{
   display: center;
   position: relative;
+  margin-bottom: 3%;
   padding-inline-start: 45%;
   padding-inline-end: 40%;
+}
+#services ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+#services li {
+  padding: 20px;
+  padding-inline-start: 7%;
+  padding-inline-end: 7%;
+  background-color: #ffffff;
+  margin: 1px;
+  list-style: none;
+ font-weight: bold;
+}
+
+#services li:hover {
+  padding: 20px;
+  padding-inline-start: 7%;
+  padding-inline-end: 7%;
+  background-color: #ff5100;
+  margin: 1px;
+  list-style: none;
+  font-weight: bold;
 }
