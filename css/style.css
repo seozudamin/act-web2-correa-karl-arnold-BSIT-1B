@@ -5,7 +5,7 @@
     padding-right: 0%;
 }
 #landing{
-  background-image:linear-gradient(to bottom, rgba(59, 29, 29, 0.397), rgba(107, 0, 0, 0.377)), url('CSSMT2/img/hero-img.png');
+  background-image:linear-gradient(to bottom, rgba(59, 29, 29, 0.397), rgba(107, 0, 0, 0.377)), url('landing-img.jpg');
   display: flex;
   justify-content: center;
   flex-flow: column;
