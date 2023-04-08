@@ -24,15 +24,17 @@
   display: flex;
   flex-wrap: wrap;
 }
-#blog div :first-child{
+#blog div :only-of-type{
   padding: 1%;
   background-color: rgb(226, 226, 226);
   height: 20%;
-  display: left;
-  padding-inline-start: 30%;
-  padding-inline-end: 30%;
+  display: center;
+  padding-inline-start: 0%;
+  padding-inline-end: 0%;
   margin-left: 15%;
+
 }
+
 #blog div p :first-of-type{
   padding: 1%;
   background-color: rgb(226, 226, 226);
