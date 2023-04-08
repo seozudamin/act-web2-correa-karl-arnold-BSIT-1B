@@ -20,12 +20,20 @@
   padding-inline-start: 43%;
   padding-inline-end: 40%;
 }
+#blog {
+  display: flex;
+  flex-wrap: wrap;
 
-#blog div {
-  padding-top: 5%;
-  padding-bottom: 10%;
+}
+#services{
+  padding: 1%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  background-color: rgb(226, 226, 226);
+}
+#services h2{
   display: center;
   position: relative;
-  padding-inline-start: 43%;
+  padding-inline-start: 45%;
   padding-inline-end: 40%;
 }
